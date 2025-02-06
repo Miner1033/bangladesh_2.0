@@ -56,7 +56,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
           Container(  
             decoration: const BoxDecoration(  
               gradient: LinearGradient(  
-                colors: [Colors.teal, Colors.red],  
+                colors: [Colors.teal, Colors.red],  // Colors for the gradient background.
                 begin: Alignment.topLeft,  // The gradient starts from the top left.
                 end: Alignment.bottomRight,  // The gradient ends at the bottom right.
               ),
@@ -84,7 +84,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
               const Text(  
                 'Bangladesh 2.o',  
                 style: const TextStyle(  
-                  fontSize: 28,  // Sets the font size.
+                  fontSize: 28,  // Sets the font size of the app name.
                   fontWeight: FontWeight.bold,  // Makes the text bold.
                   color: Colors.white,  // Sets the text color to white.
                 ),
